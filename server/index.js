@@ -8,8 +8,8 @@ app.use(express.json());
 app.use(cors());
 
 // Let us run the server. So its running
-app.listen(443, () => {
-    console.log('Server is running on port 443');
+app.listen(10000, () => {
+    console.log('Server is running on port 10000');
 });
 
 // Let us create our database (mysql)
