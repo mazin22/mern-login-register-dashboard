@@ -10,8 +10,8 @@ app.use(cors());
 var port = process.env.PORT;
 
 // Let us run the server. So its running
-app.listen(port, () => {
-    console.log(`Server is listening on ${port}`);
+app.listen(3002, () => {
+    console.log('Server is running on port 3002');
 });
 
 // Let us create our database (mysql)
