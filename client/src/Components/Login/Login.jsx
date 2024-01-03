@@ -3,7 +3,7 @@ import './Login.css';
 import '../../App.css'
 import { Link, useNavigate } from 'react-router-dom';
 import Axios from 'axios'
-import video from '../../Assets/video.mp4'
+// import video from '../../Assets/video.mp4'
 import logo from '../../Assets/logo.png'
 import { FaUserShield } from 'react-icons/fa'
 import { BsFillShieldLockFill } from 'react-icons/bs'
@@ -53,8 +53,8 @@ const Login = () => {
         <div className="loginPage flex">
             <div className="container flex">
 
-                <div className="videoDiv">
-                    <video src={video} autoPlay muted loop></video>
+                <div>
+                    
 
                     <div className="textDiv">
                         <h2 className="title">Create Your New Account</h2>
